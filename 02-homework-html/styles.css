@@ -1,0 +1,24 @@
+body {
+  background-image: url(photo.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  text-align: center;
+}
+table {
+    background: rgb(153, 50, 204); 
+    color: white;
+    border-radius: 10px;
+    margin:auto;
+}
+.box1 {
+    background: rgb(221, 160, 221, 0.6);
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    backdrop-filter: blue(20px);
+  margin: auto;
+}

@@ -5,17 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework HTML</title>
-    <style>
-        table {
-            margin:auto;
-        }
-        td {
-            text-align:center;
-        }
-    </style>
+      <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<table border="1">
+    <div class="box1">
+<table border="">
     <trbody>
     <tr>
         <th>Ім'я</th>
@@ -52,13 +46,13 @@
 <p></p>
 <form action="#">
     <label for="fname">Ім'я</label><br>
-    <input type="text" id="fname" name="fname "><br>
+    <input type="text" id="fname" name="fname" placeholder="Iм'я"><br>
     <label for="lname">Прізвище</label><br>
-    <input type="text" id="lname" name="lname"><br>
-<p>Оберіть стать</p>
+    <input type="text" id="lname" name="lname" placeholder="Прізвище"><br>
+<p>Оберіть стать:</p>
     <input type="radio" id="male" name="стать" value="male">
-    <label for="male">Чоловіча</label><br>
-    <input type="radio" id="female" name="стать" value="female">
+    <label for="male">Чоловіча</label>
+    <input type="radio" id="female" name="стать" value="female" checked>
     <lebel for="female">Жіноча</lebel><br>
     <input type="radio" id="other" name="стать" value="other">
     <label for="other">Інша</label>
@@ -72,16 +66,18 @@
     <option value="Рівне">Рівне</option>
     <option value="Харків">Харків</option>
 </select></p>
+<p>Оберіть мову:</p>
     <input type="checkbox" id="language1" name="language1" value="Ukraine">
-    <label for="language1">Українська</label><br>
+    <label for="language1">Українська</label>
     <input type="checkbox" id="language2" name="language2" value="Russ">
-    <label for="language2">Руская</label><br>
+    <label for="language2">Руская</label>
     <input type="checkbox" id="language3" name="language3" value="English">
-    <label for="language3">English</label><br>
+    <label for="language3">English</label>
     <p>
         <input type="submit" value="Надіслати">
     </p>
 </form>
+</div>
     <script src="./02-homework.js"></script>    
 </body>
 </html>
