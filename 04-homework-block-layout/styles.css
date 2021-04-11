@@ -1,0 +1,260 @@
+.box-top {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    color: #ffffff;
+    background: #ED4C5C;
+}
+.text_top {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.heading {
+    width: 445px;
+    height: 107px;
+    left: 165px;
+    top: 122px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+}
+.main-info {
+    width: 445px;
+    height: 64px;
+    left: 165px;
+    top: 253px;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+}
+.slider {
+    position: absolute;
+    width: 533px;
+    height: 311px;
+    left: 691px;
+    top: 94px;
+}
+.icon_appstore {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 218px;
+    top: 357px;
+}
+.icon_googleplay {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 163px;
+    top: 357px;
+}
+.icon_windows {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 273px;
+    top: 361px;
+}
+.box-middle {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 500px;
+    background: #FFFFFF;
+}
+.text_middle {
+    position: absolute;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+.contact_heading {
+   
+    width: 445px;
+    height: 107px;
+    left: 176px;
+    top: 117px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+}
+.contact_text {
+    width: 434px;
+    height: 64px;
+    left: 176px;
+    top: 213px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+.form_input {
+    position: absolute;
+    padding-left: 31px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    border-radius: 6px;
+}
+.first_name {
+    width: 255px;
+    height: 60px;
+    left: 735px;
+    top: 617px;;
+    border: 1px solid #333333;
+}
+.last_name {
+    width: 255px;
+    height: 60px;
+    left: 1020px;
+    top: 617px;
+    border: 1px solid #333333;
+}
+.number {
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 701px;
+    border: 1px solid #333333;
+}
+.service {
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 785px;
+    border: 1px solid #333333;
+}
+select {
+        background: url('img/ChevronDown.png') no-repeat right;
+        -webkit-appearance: none;
+        background-position-x: 95%;
+}
+.submit {
+    width: 160px;
+    height: 50px;
+    left: 735px;
+    top: 872px;
+    color: #fff;
+    background: #ed4c5c;
+    border: 1.5px solid #ed4c5c;
+    padding: 17px 34px 16px 34px;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+.box-bottom {
+    position: absolute;
+    width: 1440px;
+    height: 435px;
+    left: 0px;
+    top: 1045px;
+    background: #FAFAFA;
+}
+.text_form {
+    position: absolute;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    color: #101010;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+.address_heading {
+    width: 65px;
+    height: 22px;
+    left: 166px;
+    top: 85px;
+}
+
+.service_heading {
+    width: 67px;
+    height: 22px;
+    left: 450px;
+    top: 85px;
+}
+.get_it_touch_heading {
+    width: 101px;
+    height: 22px;
+    left: 734px;
+    top: 85px;
+}
+.support_heading {
+    width: 96px;
+    height: 22px;
+    left: 1022px;
+    top: 85px;
+}
+.text_info {
+    position: absolute;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    color: #101010;
+    font-size: 12px;
+}
+.address_info {
+    width: 254px;
+    height: 54px;
+    left: 166px;
+    top: 140px;
+    line-height: 150%;
+}
+.servise_info{
+    width: 254px;
+    height: 114px;
+    left: 450px;
+    top: 135px;
+    line-height: 160%;
+}
+.email_info {
+    width: 122px;
+    height: 14px;
+    left: 734px;
+    top: 140px;
+    line-height: 14px;
+}
+.number_info {
+    width: 96px;
+    height: 14px;
+    left: 734px;
+    top: 165px;
+    line-height: 14px;
+}
+.icon_facebook {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 734px;
+    top: 199px;
+}
+.icon_linkedin {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 760px;
+    top: 199px;
+}
+.icon_twitter {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 786px;
+    top: 199px;
+}
+.icons_cards{
+    position: absolute;
+    width: 216px;
+    height: 31px;
+    left: 1028px;
+    top: 140px;
+}
